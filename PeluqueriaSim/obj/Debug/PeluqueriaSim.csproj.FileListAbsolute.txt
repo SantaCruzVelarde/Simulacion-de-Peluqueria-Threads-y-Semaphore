@@ -1,0 +1,8 @@
+C:\Users\carlo\source\repos\PeluqueriaSim\bin\Debug\PeluqueriaSim.exe.config
+C:\Users\carlo\source\repos\PeluqueriaSim\bin\Debug\PeluqueriaSim.exe
+C:\Users\carlo\source\repos\PeluqueriaSim\bin\Debug\PeluqueriaSim.pdb
+C:\Users\carlo\source\repos\PeluqueriaSim\obj\Debug\PeluqueriaSim.csproj.AssemblyReference.cache
+C:\Users\carlo\source\repos\PeluqueriaSim\obj\Debug\PeluqueriaSim.csproj.CoreCompileInputs.cache
+C:\Users\carlo\source\repos\PeluqueriaSim\obj\Debug\PeluqueriaSim.exe
+C:\Users\carlo\source\repos\PeluqueriaSim\obj\Debug\PeluqueriaSim.pdb
+C:\Users\carlo\source\repos\PeluqueriaSim\obj\Debug\PeluqueriaSim.exe.config
