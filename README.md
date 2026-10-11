@@ -1,19 +1,33 @@
 # Simulación de Peluquería - Threads y Semaphore
 
-Programa realizado para simular el funcionamiento de una peluquería con cinco peluqueros disponibles para atender clientes.
+Programa desarrollado en C# para simular el funcionamiento de una peluquería con cinco peluqueros disponibles para atender a los clientes.
 
-Los clientes llegan de manera aleatoria y cada uno representa un Thread. Para controlar el acceso a las cinco cabinas disponibles se utiliza un Semaphore, permitiendo que solamente cinco clientes sean atendidos al mismo tiempo.
+Cada cliente se representa mediante un Thread, mientras que un Semaphore controla el acceso a las cinco cabinas disponibles. De esta forma, se permite atender simultáneamente hasta cinco clientes y se hace esperar a los demás hasta que se libere un espacio.
 
-**Tecnologías utilizadas**
+Los clientes llegan en intervalos aleatorios de entre 2 y 8 segundos, mientras que el tiempo de atención de cada peluquero varía entre 2 y 14 segundos.
 
-C# 
+# Tecnologías utilizadas
 
-Threads
+C#
+
+.NET
+
+Thread
 
 Semaphore
 
-**Funcionamiento**
+System.Threading
 
-Los clientes llegan en intervalos aleatorios de entre 2 y 8 segundos. Cada peluquero tarda entre 2 y 14 segundos en atender a un cliente.
+# Configuración e instalación
 
-Cuando las cinco cabinas están ocupadas, los nuevos clientes deben esperar hasta que alguna quede disponible.
+Instalar un entorno compatible con C# y con el framework utilizado por el proyecto.
+
+Abrir la solución o el proyecto ubicado en la carpeta PeluqueriaSim.
+
+Verificar que el entorno tenga disponibles las dependencias necesarias.
+
+Ejecutar el programa desde el entorno de desarrollo.
+
+# Funcionamiento
+
+La simulación permite observar cómo se administran recursos limitados cuando varios procesos intentan utilizarlos al mismo tiempo. El semáforo evita que se exceda la capacidad de atención de la peluquería.
